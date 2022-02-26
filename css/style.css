@@ -1,0 +1,296 @@
+/* CSS for all */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col{
+    margin:8px 0;
+}
+
+::selection{
+    background-color:#000;color:#fff;
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* CSS for nav */
+.logo-img-nav{
+    width: 200px;
+    height: 68px;
+}
+
+.nav{
+    line-height: 44.5px;
+    padding:0;
+}
+
+.nav-menu{
+    background-color:#fff!important;
+    align-items: flex-start;
+    z-index: 1;
+
+}
+
+.nav-menu>a{
+    margin:0;
+}
+
+/* CSS for slider */
+.slider-img{
+    max-width: 100%;
+    height:auto;
+}
+
+.row{
+    margin: 0;
+}
+
+/* CSS for content */
+.img-content1{
+    max-width: 100%;
+    height:auto;
+}
+
+.row-content1{
+    margin: 84px 0;
+    justify-content: space-between;
+}
+
+.text-content1{
+    padding-top:25px;
+    line-height:2;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.text-content2>h2{
+    text-align:center;
+}
+
+.text-content2{
+    margin-bottom:20px;
+}
+
+.div-card-content{
+    border:2px solid #0B249E;
+    border-radius:10px;
+    margin-top:40px;   
+    padding:0;  
+    justify-content: center;
+}
+
+.row-content11{
+    text-align:center;
+    justify-content: space-between;
+}
+
+/* CSS for 2nd content */
+.background-2nd{
+    background-image: linear-gradient(180deg, #0A2E9E 0%, #780BBD 100%);;
+    height:fit-content;
+    padding-bottom: 100px;
+}
+
+.content-background-2nd{
+    padding: 80px 0;
+}
+
+.content-2nd{
+    background-color: #fff;
+    text-align:center;
+    height: auto;
+    border: 1px solid #fff;
+}
+
+.img-content-2nd{
+    width: 100%;
+    height:auto;
+}
+
+.content-2nd>p{
+    font-size:15px;
+    margin-top:15px;
+    font-weight: 700;
+}
+
+.background-2nd h2{
+    margin: 60px auto;
+    color:#fff;
+    font-size:25px;
+    text-align: center;
+}
+
+.card-content-2nd{
+    margin-top: 80px;
+    margin-bottom:50px;
+}
+
+.row-content-2nd{
+    text-align:center;
+    padding:30px 20px;
+}
+
+.row-content-2nd p{
+    color: #fff;
+    font-size:17px;
+    font-weight: 600;
+}
+
+/* .btn-content-2nd{
+    margin-top:15px;
+} */
+
+.row-content-2nd a{
+    font-size:16px;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    border:5px solid #fff;
+    padding:10px 20px;
+}
+
+.btn-content-2nd:hover{
+    transform: scale(1.2);
+}
+
+.btn-content-2nd:hover a{
+    background-color:orange;
+}
+
+/* CSS for 3th */
+.content-3th h2{
+    text-align: center;
+    margin-top:80px;
+}
+
+.img-content-3th{
+    width: 100%;
+    height:auto;
+}
+
+.card-content-3th{
+    border: 1px solid #ccc;
+    padding-top: 10px;
+    margin-bottom: 90px;
+}
+
+.card-content-3th p{
+    text-align:center;
+}
+
+.row-content-3th{
+    justify-content: space-between;
+}
+
+/* CSS for 4th page */
+.col-4th-content{
+    margin-top:100px;
+}
+
+button,
+.input-4th-content{
+    width: 100%;  
+    padding:6px;
+    margin-top:10px; 
+}
+
+button{
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:aqua;
+    color:white;
+}
+
+.h2-4th-content h2{
+    font-size:25px;
+    color: orange;
+    text-align: center;
+    margin:0;
+}
+
+.h3-4th-content h3{
+    font-size:25px;
+    color:#fff;
+    text-align: center;
+}
+
+button{
+    background-color:orange;
+    color:#000;
+    border:none;
+    cursor: pointer;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.sel-from-content{
+    margin-top:20px!important;
+}
+
+.form-control{
+    padding:6px!important;
+}
+
+.list-content li{
+    color:#fff;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.list-content .subnav-content{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* CSS for 5th page */
+
+.text-5th-content{
+    text-align: center;
+    font-size:25px;
+    margin-top:100px;
+}
+
+.list-content1{
+    margin: auto 0;
+}
+
+ol{
+    margin-left: 50px;
+}
+
+ol li{
+    margin-bottom: 20px;
+    font-size:16px;
+}
+
+ol>a{
+    color: #000 !important;;
+}
+
+/* CSS for 6th page */
+
+/* CSS for footer */
+.list-content-5th{
+    margin-top:50px;
+}
+
+.list-content-5th h6{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list-content-5th a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
