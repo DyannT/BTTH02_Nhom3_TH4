@@ -15,6 +15,7 @@
 
 html{
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 /* CSS for nav */
@@ -76,6 +77,7 @@ html{
 }
 
 .div-card-content{
+    padding:20px!important;
     border:2px solid #0B249E;
     border-radius:10px;
     margin-top:40px;   
@@ -85,7 +87,7 @@ html{
 
 .row-content11{
     text-align:center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* CSS for 2nd content */
@@ -174,8 +176,9 @@ html{
 
 .card-content-3th{
     border: 1px solid #ccc;
-    padding-top: 10px;
+    padding: 10px;
     margin-bottom: 90px;
+
 }
 
 .card-content-3th p{
@@ -276,6 +279,23 @@ ol>a{
 }
 
 /* CSS for 6th page */
+h4{
+    text-align: center;
+    margin-bottom:15px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.img-logo-content{
+    width: 100%;
+    height:auto;
+    transition: all .4s ease;
+}
+
+.div-logo-card{
+    padding:10px;
+}
+
 
 /* CSS for footer */
 .list-content-5th{
@@ -284,13 +304,13 @@ ol>a{
 
 .list-content-5th h6{
     color: #fff;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
 }
 
 .list-content-5th a{
     color: #fff;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     text-decoration: none;
 }
